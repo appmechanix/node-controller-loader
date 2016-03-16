@@ -4,7 +4,7 @@
   "description": "Loops through controllers in a given directory and sets them up for use in your web framework",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "nodeunit"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/appmechanix/node-controller-loader#readme",
   "dependencies": {
+    "async": "^1.5.2",
     "nodeunit": "^0.9.1"
   }
 }
