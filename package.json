@@ -1,0 +1,32 @@
+{
+  "name": "node-controller-loader",
+  "version": "1.0.0",
+  "description": "Loops through controllers in a given directory and sets them up for use in your web framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appmechanix/node-controller-loader.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "restify",
+    "controller",
+    "loading",
+    "load",
+    "route",
+    "router"
+  ],
+  "author": "dwnz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appmechanix/node-controller-loader/issues"
+  },
+  "homepage": "https://github.com/appmechanix/node-controller-loader#readme",
+  "dependencies": {
+    "nodeunit": "^0.9.1"
+  }
+}
